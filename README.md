@@ -1,2 +1,62 @@
-# Secure-Online-Payment-using-Proxy-and-Facial-Recognition
-To overcome the limitations and security holes we have proposed a 2-step authentication in transaction process. Advantage of our proposed system is Proxy Detection will be implemented using image processing technique. This provided more secure to the system. In the proposed system, Face Verification will be implemented using Face Net Deep Learning Algorithm to embed with 128 feature points of the face. We use One-shot learning to quickly learn the faces of the user. Also using OpenCV bounding box focus is created around the face so other people in the background are not focused. Embed 128 features point of each person face will be calculated with triplet loss function. Also different approaches like Resents are experimented.
+<div align="center">
+<img src="https://raw.githubusercontent.com/MCarlomagno/assets/master/FaceNetAuthentication-Logo.png" alt="Screenshot 1" width="300"/>
+</div>
+
+# FaceNetAuthentication
+
+Simple face recognition authentication (Sign up + Sign in) written in Flutter using Tensorflow Lite and Firebase ML vision library.
+
+## Stack
+
+### Flutter
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
+
+https://flutter.dev/
+
+### Tensorflow lite
+TensorFlow Lite is an open source deep learning framework for on-device inference.
+
+https://www.tensorflow.org/lite
+
+#### Flutter + Tensrorflow lite = tflite_flutter package 
+TensorFlow Lite plugin provides a dart API for accessing TensorFlow Lite interpreter and performing inference. It binds to TensorFlow Lite C API using dart:ffi.
+
+https://pub.dev/packages/tflite_flutter/install
+
+## Setup
+
+1- Clone the project:
+
+```
+git clone https://github.com/MCarlomagno/FaceRecognitionAuth.git
+```
+2- Open the folder:
+
+```
+cd FaceRecognitionAuth
+```
+3- Install dependencies:
+
+```
+flutter pub get
+```
+4- Run on device (Check device connected or any virtual device running):
+
+```
+flutter run
+```
+
+## Screenshots
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MCarlomagno/assets/master/face-recog-auth-process.gif" alt="Face recognition auth"/>
+</div>
+
+## Licence
+
+https://opensource.org/licenses/BSD-3-Clause
+
+
+
+
